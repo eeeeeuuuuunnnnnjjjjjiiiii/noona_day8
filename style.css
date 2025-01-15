@@ -47,3 +47,27 @@ nav {
     align-items: center;
     display: none;
   }
+
+  @media screen and (max-width: 48rem) {
+    .second-line {
+      padding: 0 2rem;
+    }
+  
+    .flag {
+      display: none;
+    }
+  
+    .first-line {
+      text-align: center;
+    }
+  
+    .mobile-footer {
+      display: block;
+    }
+  }
+  .col {
+    padding-bottom: 1rem;
+  }
+  .flag-img {
+    margin: 0 0.5rem;
+  }
